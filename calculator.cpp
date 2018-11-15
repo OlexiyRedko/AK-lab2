@@ -9,3 +9,13 @@ int Calculator::Mul (double a, double b)
 {
     return a * b + 0.5;
 }
+
+int Calculator::Sub (int a, int b)
+{
+    return a - b;
+}
+
+int Calculator::Div (int a, int b)
+{
+    return a / b;
+}
